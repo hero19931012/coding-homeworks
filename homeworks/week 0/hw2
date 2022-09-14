@@ -1,0 +1,4 @@
+交作業流程
+從輝明那邊fork到我自己的帳號底下，再clone到我的電腦中。Clone時要用HTML，用SSH的話會跑出keyword hostname extra arguments at end of line和terminating, 1 bad configuration options的錯誤訊息（還沒搞懂這是怎麼回事）
+Clone下來之後開一個新的branch（這次的我取叫week0），用git checkout切換到這個branch之後，用vim打字完成作業，然後git commit加上訊息說week 0完成。
+要交作業時，git push origin week0把這個branch推到網路上，所以在GitHub上自己的頁面中就可以看到有新的branch。然後再送出pull request，就會被merge到main裡面
