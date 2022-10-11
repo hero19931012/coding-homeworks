@@ -1,11 +1,11 @@
 const arr1 = [2,4,5,6,7] //data
 let arr2 = []
 function cb1 (num){
-     num *2
+     arr2.push(num *2)
 } //map要執行的function
 function map(array, callback){
     for (let key in array){
-        arr2[key] = callback(arr1[key])
+        callback(arr1[key])
     }
 } // map主程式
 
