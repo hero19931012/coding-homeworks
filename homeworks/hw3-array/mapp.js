@@ -6,7 +6,7 @@ function cb1 (num){
 function map(array, callback){
     for (let key in array){
         callback(arr1[key])
-    }
+    } //let in  array每個元素進去
 } // map主程式
 
 map (arr1,cb1); //call map function

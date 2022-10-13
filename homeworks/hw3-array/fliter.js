@@ -1,14 +1,14 @@
 const arr1 = [2 ,5,3,6,7]
-let ans =[]
+const ans =[]
+
 function cb1(num){
-    if (num >= 5){
-        ans.push(num)
-    }
+    return num >= 5
 }
 function filter1(array,cbfilter){
     for (let key in array){
-        cb1(array[key])
-        console.log(array[key])
+        if (cbfilter(array[key])){
+            ans.push(array[key])
+        }
     }
 }
 filter1(arr1,cb1)

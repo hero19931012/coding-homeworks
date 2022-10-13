@@ -10,11 +10,11 @@ function foreach(array,func){
 }
 function func(num) {
     console.log(num);
-    console.log(`第${i+1}次`)
+    console.log(`第${i+1}次`)  
    
 } // print
 // function forEach(array, fuc){
     // array.forEach(element =>fuc(element));
 // } //for each函數
-foreach(arr1,func);
+foreach(arr1,func); //? 
 // 
