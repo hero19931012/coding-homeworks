@@ -10,10 +10,9 @@ function filter1(array,cbfilter){
             ans.push(array[key])
         }
     }
-    console.log(ans)
+    return ans
 }
-filter1(arr1,cb1)
-
+console.log(filter1(arr1,cb1))
 // 請設計一個 function `filter`
 // - 接受 2 個參數，一個陣列與一個
 // - 回傳一個新的陣列

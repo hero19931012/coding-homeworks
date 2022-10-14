@@ -7,7 +7,7 @@ function map(array, callback){
     for (let key of array){
         arr2.push(callback(key))
     } //let of  array每個元素進去
-    console.log(arr2)
+    return arr2
 } // map主程式
-
-map (arr1,cb1); //call map function
+; //call map function
+console.log(map(arr1,cb1))
