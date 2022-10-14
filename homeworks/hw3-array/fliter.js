@@ -1,15 +1,16 @@
 const arr1 = [2 ,5,3,6,7]
-const ans =[]
 
 function cb1(num){
     return num >= 5
 }
 function filter1(array,cbfilter){
+    const ans =[]
     for (let key in array){
         if (cbfilter(array[key])){
             ans.push(array[key])
         }
     }
+    console.log(ans)
 }
 filter1(arr1,cb1)
 
